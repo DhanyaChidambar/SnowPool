@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8516844897db9110b5357f871153afb0</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:45:38</sys_created_on>
+        <sys_id>2c46844897db9110b5357f871153af51</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_instance_2c46844897db9110b5357f871153af51</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:50:20</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h2 style=\"color: white;\">SnowPool</h2>",
+		"displayValue": "<h2 style=\"color: white;\">SnowPool</h2>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2c46844897db9110b5357f871153af51"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNow Pool">09d24fe397c79110b5357f871153afec</application>
+        <file_path/>
+        <instance_id>e9bb6b90db66115c4d2bac44d49619e8</instance_id>
+        <instance_name>tokyomm</instance_name>
+        <name>sp_instance_2c46844897db9110b5357f871153af51</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;8516844897db9110b5357f871153afb0&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;abel.tuter&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-16 05:45:38&lt;/sys_created_on&gt;&lt;sys_id&gt;2c46844897db9110b5357f871153af51&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SNow Pool" source="x_snc_snow_pool"&gt;09d24fe397c79110b5357f871153afec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SNow Pool"&gt;09d24fe397c79110b5357f871153afec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_2c46844897db9110b5357f871153af51&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abel.tuter&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-16 05:50:20&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h2 style=\"color: white;\"&gt;SnowPool&lt;/h2&gt;",
+		"displayValue": "&lt;h2 style=\"color: white;\"&gt;SnowPool&lt;/h2&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2c46844897db9110b5357f871153af51"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1028485774</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>55d24fe397c79110b5357f871153aff0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:50:20</sys_created_on>
+        <sys_id>7d57cc4897db9110b5357f871153af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847efd01260000001</sys_recorded_at>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:50:20</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3d574c48d8db9110a947b01597b7fe53</update_guid>
+        <update_guid_history>3d574c48d8db9110a947b01597b7fe53:-1028485774,c1474c4897db911049199f99da09efdc:-397098298,6c074c48b1db91101f94438d236df141:-1408543376,d1d6c8488adb9110152ad21951059ae3:1005747098,34a64848a4db91108d68e6a2363ecf47:551546544,058608482fdb9110b14293d951b53aee:1956010662,24468448abdb9110d1462d949963a253:-1887218622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4f9a04c897db9110b5357f871153af27</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 06:04:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>02be2f69e5924137b971511a41466e99</sys_id>
+        <sys_metadata>2c46844897db9110b5357f871153af51</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_scope_delete display_value="">4428c29c30604cba8955a5138d1bc689</sys_scope_delete>
+        <sys_update_name>sp_instance_2c46844897db9110b5357f871153af51</sys_update_name>
+        <sys_update_version display_value="sp_instance_2c46844897db9110b5357f871153af51">7d57cc4897db9110b5357f871153af83</sys_update_version>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:04:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

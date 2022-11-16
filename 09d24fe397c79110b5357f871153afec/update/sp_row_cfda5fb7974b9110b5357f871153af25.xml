@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Snow Pool - Container 2">06da13f7974b9110b5357f871153afdf</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>dhanya.c@snc</sys_created_by>
+        <sys_created_on>2022-11-16 02:36:01</sys_created_on>
+        <sys_id>cfda5fb7974b9110b5357f871153af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_row_cfda5fb7974b9110b5357f871153af25</sys_update_name>
+        <sys_updated_by>dhanya.c@snc</sys_updated_by>
+        <sys_updated_on>2022-11-16 02:36:01</sys_updated_on>
+    </sp_row>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">8277008897db9110b5357f871153af96</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:50:54</sys_created_on>
+        <sys_id>c277008897db9110b5357f871153af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_column_c277008897db9110b5357f871153af9a</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:50:54</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNow Pool">09d24fe397c79110b5357f871153afec</application>
+        <file_path/>
+        <instance_id>e9bb6b90db66115c4d2bac44d49619e8</instance_id>
+        <instance_name>tokyomm</instance_name>
+        <name>sp_column_c277008897db9110b5357f871153af9a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">8277008897db9110b5357f871153af96</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>abel.tuter</sys_created_by><sys_created_on>2022-11-16 05:50:54</sys_created_on><sys_id>c277008897db9110b5357f871153af9a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package><sys_policy/><sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope><sys_update_name>sp_column_c277008897db9110b5357f871153af9a</sys_update_name><sys_updated_by>abel.tuter</sys_updated_by><sys_updated_on>2022-11-16 05:50:54</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1117808613</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>55d24fe397c79110b5357f871153aff0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:50:54</sys_created_on>
+        <sys_id>ca77008897db9110b5357f871153af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847efd85f00000001</sys_recorded_at>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:50:54</sys_updated_on>
+        <type>Column</type>
+        <update_guid>0677008890db9110f6ccda7fbc40cd9b</update_guid>
+        <update_guid_history>0677008890db9110f6ccda7fbc40cd9b:-1117808613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">7c87008897db9110b5357f871153afc7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:51:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>4b5229b987e045309006ea9f762f4d90</sys_id>
+        <sys_metadata>c277008897db9110b5357f871153af9a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_scope_delete display_value="">4428c29c30604cba8955a5138d1bc689</sys_scope_delete>
+        <sys_update_name>sp_column_c277008897db9110b5357f871153af9a</sys_update_name>
+        <sys_update_version display_value="sp_column_c277008897db9110b5357f871153af9a">ca77008897db9110b5357f871153af9b</sys_update_version>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:51:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_snow_pool.ride_user" name="x_snc_snow_pool.ride_user">4795cb2797c79110b5357f871153af60</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-15 06:24:41</sys_created_on>
+        <sys_id>0795cb2797c79110b5357f871153af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4795cb2797c79110b5357f871153af60</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sys_embedded_help_role_0795cb2797c79110b5357f871153af62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-15 06:24:41</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

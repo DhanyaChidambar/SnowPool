@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">eabc400c97db9110b5357f871153afa6</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 06:34:08</sys_created_on>
+        <sys_id>d751d04c97db9110b5357f871153af25</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_instance_d751d04c97db9110b5357f871153af25</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:35:56</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://tokyomm.service-now.com/snow_pool",
+		"displayValue": "https://tokyomm.service-now.com/snow_pool"
+	},
+	"button_text": {
+		"value": "Home",
+		"displayValue": "Home"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d751d04c97db9110b5357f871153af25"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNow Pool">09d24fe397c79110b5357f871153afec</application>
+        <file_path/>
+        <instance_id>e9bb6b90db66115c4d2bac44d49619e8</instance_id>
+        <instance_name>tokyomm</instance_name>
+        <name>sp_instance_d751d04c97db9110b5357f871153af25</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;danger&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;eabc400c97db9110b5357f871153afa6&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;abel.tuter&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-16 06:34:08&lt;/sys_created_on&gt;&lt;sys_id&gt;d751d04c97db9110b5357f871153af25&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SNow Pool" source="x_snc_snow_pool"&gt;09d24fe397c79110b5357f871153afec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SNow Pool"&gt;09d24fe397c79110b5357f871153afec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d751d04c97db9110b5357f871153af25&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abel.tuter&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-16 06:35:56&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://tokyomm.service-now.com/snow_pool",
+		"displayValue": "https://tokyomm.service-now.com/snow_pool"
+	},
+	"button_text": {
+		"value": "Home",
+		"displayValue": "Home"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d751d04c97db9110b5357f871153af25"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>417892992</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>55d24fe397c79110b5357f871153aff0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 06:35:57</sys_created_on>
+        <sys_id>b9c1984c97db9110b5357f871153afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847f26c1450000001</sys_recorded_at>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:35:57</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>35c1984c93db9110081fd2e139d253df</update_guid>
+        <update_guid_history>35c1984c93db9110081fd2e139d253df:417892992,d881904cfbdb9110574c69a3511e3639:1467968916,1351d04c16db91106825ce55fedf7a27:-1970460156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1133908c97db9110b5357f871153af42</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 06:42:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4a1721770b1d4e3cbc54f7bbf89e3784</sys_id>
+        <sys_metadata>d751d04c97db9110b5357f871153af25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_scope_delete display_value="">4428c29c30604cba8955a5138d1bc689</sys_scope_delete>
+        <sys_update_name>sp_instance_d751d04c97db9110b5357f871153af25</sys_update_name>
+        <sys_update_version display_value="sp_instance_d751d04c97db9110b5357f871153af25">b9c1984c97db9110b5357f871153afdf</sys_update_version>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:42:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

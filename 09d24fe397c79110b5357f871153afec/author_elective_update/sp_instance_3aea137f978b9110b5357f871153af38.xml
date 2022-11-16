@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2bdad37f978b9110b5357f871153af99</sp_column>
+        <sp_widget display_value="SNPool Upcoming Rides">8ef60933974b9110b5357f871153afbb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>dhanya.c@snc</sys_created_by>
+        <sys_created_on>2022-11-16 02:36:16</sys_created_on>
+        <sys_id>3aea137f978b9110b5357f871153af38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_instance_3aea137f978b9110b5357f871153af38</sys_update_name>
+        <sys_updated_by>dhanya.c@snc</sys_updated_by>
+        <sys_updated_on>2022-11-16 02:36:16</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3aea137f978b9110b5357f871153af38"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNow Pool">09d24fe397c79110b5357f871153afec</application>
+        <file_path/>
+        <instance_id>e9bb6b90db66115c4d2bac44d49619e8</instance_id>
+        <instance_name>tokyomm</instance_name>
+        <name>sp_instance_3aea137f978b9110b5357f871153af38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">2bdad37f978b9110b5357f871153af99</sp_column><sp_widget display_value="SNPool Upcoming Rides">8ef60933974b9110b5357f871153afbb</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>dhanya.c@snc</sys_created_by><sys_created_on>2022-11-16 02:36:16</sys_created_on><sys_id>3aea137f978b9110b5357f871153af38</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package><sys_policy/><sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope><sys_update_name>sp_instance_3aea137f978b9110b5357f871153af38</sys_update_name><sys_updated_by>dhanya.c@snc</sys_updated_by><sys_updated_on>2022-11-16 02:36:16</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=3aea137f978b9110b5357f871153af38"/></record_update>]]></payload>
+        <payload_hash>-1991034937</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>55d24fe397c79110b5357f871153aff0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dhanya.c@snc</sys_created_by>
+        <sys_created_on>2022-11-16 02:36:16</sys_created_on>
+        <sys_id>b2ea137f978b9110b5357f871153af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847e4b54670000001</sys_recorded_at>
+        <sys_updated_by>dhanya.c@snc</sys_updated_by>
+        <sys_updated_on>2022-11-16 02:36:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>faea137f9c8b911065a2fe3aa44cc43a</update_guid>
+        <update_guid_history>faea137f9c8b911065a2fe3aa44cc43a:-1991034937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">10b97b7797cb9110b5357f871153af17</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>snow.pool</sys_created_by>
+        <sys_created_on>2022-11-16 04:50:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>205e60f45b0743308b990d44d3a33840</sys_id>
+        <sys_metadata>3aea137f978b9110b5357f871153af38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_scope_delete display_value="">4428c29c30604cba8955a5138d1bc689</sys_scope_delete>
+        <sys_update_name>sp_instance_3aea137f978b9110b5357f871153af38</sys_update_name>
+        <sys_update_version display_value="sp_instance_3aea137f978b9110b5357f871153af38">b2ea137f978b9110b5357f871153af3b</sys_update_version>
+        <sys_updated_by>snow.pool</sys_updated_by>
+        <sys_updated_on>2022-11-16 04:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

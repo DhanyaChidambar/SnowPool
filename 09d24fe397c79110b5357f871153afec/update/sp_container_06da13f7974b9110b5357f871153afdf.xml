@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color>#ffffff</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Snow Pool - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="snow_pool">c1da937f978b9110b5357f871153afdb</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>dhanya.c@snc</sys_created_by>
+        <sys_created_on>2022-11-16 02:35:57</sys_created_on>
+        <sys_id>06da13f7974b9110b5357f871153afdf</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Snow Pool - Container 2</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_container_06da13f7974b9110b5357f871153afdf</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:13:44</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

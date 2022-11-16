@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd96436797c79110b5357f871153afc9" label="Request" max_length="40" name="x_snc_snow_pool_request" type="collection">
+        <element label="Destination" max_length="40" name="destination" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Ride" max_length="32" name="ride" reference="x_snc_snow_pool_ride" type="reference"/>
+        <element label="Ride requestor" max_length="32" name="ride_requestor" reference="sys_user" type="reference"/>
+        <element label="Source" max_length="40" name="source" type="string"/>
+        <element choice="3" default="1" label="Status" max_length="4000" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="2"/>
+                <element inactive_on_update="false" label="Cancelled" value="5"/>
+                <element inactive_on_update="false" label="Completed" value="4"/>
+                <element inactive_on_update="false" label="In progress" value="3"/>
+                <element inactive_on_update="false" label="Rejected" value="6"/>
+                <element inactive_on_update="false" label="Requested" value="1"/>
+            </choice>
+        </element>
+        <element label="Time" max_length="40" name="time" type="glide_date_time"/>
+        <index name="index">
+            <element name="ride"/>
+        </index>
+        <index name="index2">
+            <element name="ride_requestor"/>
+        </index>
+    </element>
+</database>

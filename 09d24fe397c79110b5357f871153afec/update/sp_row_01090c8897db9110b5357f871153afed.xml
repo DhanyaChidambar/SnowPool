@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>2</order>
+        <sp_column/>
+        <sp_container display_value="Snow Pool - Container 2">06da13f7974b9110b5357f871153afdf</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:57:40</sys_created_on>
+        <sys_id>01090c8897db9110b5357f871153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_row_01090c8897db9110b5357f871153afed</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:57:40</sys_updated_on>
+    </sp_row>
+</record_update>

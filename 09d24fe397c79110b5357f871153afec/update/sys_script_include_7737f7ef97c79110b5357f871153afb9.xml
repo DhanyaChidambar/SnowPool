@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_snow_pool.SNowPoolService</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SNowPoolService</name>
+        <script><![CDATA[var SNowPoolService = Class.create();
+SNowPoolService.prototype = {
+    initialize: function() {},
+	process: function(request,response){
+		this.submitRequestHandler(request.body.data);
+	}, 
+	
+	submitRequestHandler : function(payload){
+		var requestGr = new GlideRecord("x_snc_snow_pool_request");
+		var status = payload.status.toString();
+		if(status == "requested") {
+			requestGr.setValue('status', status);
+			requestGr.setValue('destination',payload.destination.toString());
+			requestGr.setValue('ride',payload.ride);
+			requestGr.setValue('ride_requestor',payload.ride_requestor);
+			requestGr.setValue('time', payload.time.toString());
+			requestGr.insert();
+			return requestGr.getUniqueValue();
+		}
+		requestGr.get(payload.req_sys_id);
+		requestGr.setValue('status', status);
+		requestGr.update();
+		return requestGr.getUniqueValue();
+
+	},
+	getUserRides: function(userId) {
+		var rideGr = new GlideRecord("x_snc_snow_pool_ride");
+		rideGr.addQuery('ride_giver',userId);
+		rideGr.query();
+		var rideObj=[];
+		while(rideGr.next()) {
+			rideObj.push({
+				source: rideGr.getValue('source'), 
+				destination:rideGr.getValue('destination'),
+				time: rideGr.getValue('time'), 
+				capacity: rideGr.getValue('capacity')
+			});
+		}
+		return rideObj;
+	},
+	getUserRequest: function(userId) {
+		var requestGr = new GlideRecord("x_snc_snow_pool_request");
+		requestGr.addQuery('ride_requestor',userId);
+		requestGr.query();
+		var requestObj=[];
+		while(requestGr.next()) {
+			requestObj.push({
+				source: requestGr.getValue('source'), 
+				destination:requestGr.getValue('destination'),
+				time: requestGr.getValue('time'), 
+				capacity: requestGr.getValue('capacity'),
+				status: requestGr.getDisplayValue('status')
+			});
+		}
+		return requestObj;
+	},
+	
+    type: 'SNowPoolService'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-15 10:02:08</sys_created_on>
+        <sys_id>7737f7ef97c79110b5357f871153afb9</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>SNowPoolService</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sys_script_include_7737f7ef97c79110b5357f871153afb9</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:45:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

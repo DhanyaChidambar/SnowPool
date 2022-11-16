@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($rootScope) {
+	/* widget controller */
+	var c = this;
+	c.data.showNewRidePage=false;
+	c.data.rides = c.data.ride_items;
+	c.data.request_items = c.data.request_items
+	c.showNewRidePage = function(){
+		c.data.showNewRidePage=true;
+		$rootScope.$broadcast('showNewRidePage',true);	
+	}
+	
+	$rootScope.$on('showHomePage',function(event,data){
+		c.data.showNewRidePage=false;
+		$rootScope.$broadcast('showNewRidePage',false);	
+	});
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.heading {
+  text-align: center;
+  font-size: 40px; 
+  color: #777B7E;
+  margin: 15px 8px 30px 8px;
+}
+.rides-card {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+.rides-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.ride-details {
+  padding: 8px;
+}
+
+.float-right {
+  float: right;
+}
+
+.ride-cancel {
+  width: 100%;
+  background-color: #D30000;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  padding: 5px;
+}
+
+.ride-seerequests {
+  width: 100%;
+  background-color: #D30000;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  display: block;
+}
+
+.ride-label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.ride-label-2 {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.ride-value {
+  font-weight: normal;
+}
+
+.ride-value-2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.label-details {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.car-icon a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ride-status {
+  margin-bottom: 8px; 
+}
+
+.ride-status-requested {
+  width: 25%;
+  color: #FFFFFF;
+  background-color: #A9A9A9;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.ride-checkin {
+  width: 100%;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 4px;
+  background-color: #E8E8E8;
+  color: #D30000;
+  font-size: 14px;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+.ride-checkin:hover {
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+.new-ride {
+  width: 20%;
+  background-color: #1034A6;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  position: fixed;
+  bottom: 40px;
+  right: 10px; 
+  padding: 8px;
+}
+
+.new-ride:hover {
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+.ride-cancel:hover {
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+.right-arrow {
+  margin-top: 15px;
+  border-radius: 50px;
+  marin-left: -50px
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>snpool_upcoming_rides</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>SNPool Upcoming Rides</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  data.rides = [];
+	
+	data.ride_items= new SNowPoolService().getUserRides(gs.getUserID());
+	data.request_items= new SNowPoolService().getUserRequest(gs.getUserID());
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>maneeth.madishetti@snc</sys_created_by>
+        <sys_created_on>2022-11-15 15:49:52</sys_created_on>
+        <sys_id>8ef60933974b9110b5357f871153afbb</sys_id>
+        <sys_mod_count>160</sys_mod_count>
+        <sys_name>SNPool Upcoming Rides</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_widget_8ef60933974b9110b5357f871153afbb</sys_update_name>
+        <sys_updated_by>snow.pool</sys_updated_by>
+        <sys_updated_on>2022-11-16 09:08:59</sys_updated_on>
+        <template><![CDATA[<div class="rides-container" ng-show="!c.data.showNewRidePage">
+  <!-- your widget template -->
+  <div class="heading">Rides offered</div>
+  <div class="rides-card" ng-repeat="item in c.data.rides">
+    <div class="ride-details">
+      <div class="float-right">
+        <input type="button" class="ride-cancel" value="cancel">
+        <button class="right-arrow">
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="label-details">
+        <label class="ride-label">${Start}</label>
+        <span class="ride-value">{{item.source}}</span>
+      </div>
+      <div class="label-details">
+        <label class="ride-label">${End}</label>
+        <span class="ride-value">{{item.destination}}</span>
+      </div>
+      <div class="label-details">
+        <label class="ride-label">${Start Time}</label>
+        <span class="ride-value">{{item.time}}</span>
+      </div>
+      <div class="label-details">
+        <label class="ride-label-2">${Seats available : }</label>
+        <span class="ride-value-2">{{item.capacity}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="heading">Rides requested</div>
+  <div class="rides-card" ng-repeat="item in c.data.request_items">
+    <div class="ride-details">
+      <div class="float-right">
+        <input type="button" class="ride-cancel" value="cancel">
+      </div>
+      <div class="ride-status">
+        <label class="ride-status-requested">{{item.status}}</label>
+      </div>
+      <div class="label-details">
+        <label class="ride-label">${Pick Up Location}</label>
+        <span class="ride-value">{{item.source}}</span>
+      </div>
+      <div class="label-details">
+        <label class="ride-label">${Drop Location}</label>
+        <span class="ride-value">{{item.destination}}</span>
+      </div>
+      <div class="label-details">
+        <label class="ride-label">${Pick Up Time}</label>
+        <span class="ride-value">{{item.time}}</span>
+      </div>
+      <div>
+        <input type="button" value="check in" class="ride-checkin" ng-if="item.status==='Approved'">
+      </div>
+    </div>
+  </div>
+    <div>
+    <input type="button" value="New Ride" class="new-ride float-right" ng-click="c.showNewRidePage()">
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

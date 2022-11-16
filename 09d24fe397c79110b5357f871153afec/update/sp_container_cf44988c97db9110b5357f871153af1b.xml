@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>new_ride - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="new_ride">0f44988c97db9110b5357f871153af19</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 06:46:58</sys_created_on>
+        <sys_id>cf44988c97db9110b5357f871153af1b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>new_ride - Container 1</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_container_cf44988c97db9110b5357f871153af1b</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:50:09</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

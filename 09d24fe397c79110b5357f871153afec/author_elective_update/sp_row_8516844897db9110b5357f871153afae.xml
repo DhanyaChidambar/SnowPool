@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Snow Pool - Container 1">a7a40c0897db9110b5357f871153af56</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:44:50</sys_created_on>
+        <sys_id>8516844897db9110b5357f871153afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_update_name>sp_row_8516844897db9110b5357f871153afae</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:44:50</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNow Pool">09d24fe397c79110b5357f871153afec</application>
+        <file_path/>
+        <instance_id>e9bb6b90db66115c4d2bac44d49619e8</instance_id>
+        <instance_name>tokyomm</instance_name>
+        <name>sp_row_8516844897db9110b5357f871153afae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Snow Pool - Container 1">a7a40c0897db9110b5357f871153af56</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>abel.tuter</sys_created_by><sys_created_on>2022-11-16 05:44:50</sys_created_on><sys_id>8516844897db9110b5357f871153afae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package><sys_policy/><sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope><sys_update_name>sp_row_8516844897db9110b5357f871153afae</sys_update_name><sys_updated_by>abel.tuter</sys_updated_by><sys_updated_on>2022-11-16 05:44:50</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>685673609</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>55d24fe397c79110b5357f871153aff0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 05:44:50</sys_created_on>
+        <sys_id>4116844897db9110b5357f871153afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1847ef7f58e0000001</sys_recorded_at>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 05:44:50</sys_updated_on>
+        <type>Row</type>
+        <update_guid>89168448a0db911088087ff68d2c94af</update_guid>
+        <update_guid_history>89168448a0db911088087ff68d2c94af:685673609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">939a04c897db9110b5357f871153af32</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2022-11-16 06:04:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>154e06237a0f46b68c8f6843626cfc84</sys_id>
+        <sys_metadata>8516844897db9110b5357f871153afae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SNow Pool" source="x_snc_snow_pool">09d24fe397c79110b5357f871153afec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNow Pool">09d24fe397c79110b5357f871153afec</sys_scope>
+        <sys_scope_delete display_value="">4428c29c30604cba8955a5138d1bc689</sys_scope_delete>
+        <sys_update_name>sp_row_8516844897db9110b5357f871153afae</sys_update_name>
+        <sys_update_version display_value="sp_row_8516844897db9110b5357f871153afae">4116844897db9110b5357f871153afb0</sys_update_version>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2022-11-16 06:04:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
